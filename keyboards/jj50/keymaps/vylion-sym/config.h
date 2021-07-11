@@ -1,0 +1,6 @@
+#pragma once
+
+#define ONESHOT_TAP_TOGGLE 2
+#define ONESHOT_TIMEOUT 8000
+
+#define UNICODE_SELECTED_MODES UC_LNX, UC_WINC, UC_WIN

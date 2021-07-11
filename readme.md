@@ -1,3 +1,7 @@
+# About this fork
+
+This is a fork of the QMK repository, with some personal layouts of mine included. For a full list of these layouts, check out [FORK.md](./FORK.md).
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)

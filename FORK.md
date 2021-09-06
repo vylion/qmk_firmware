@@ -1,19 +1,19 @@
 # Personal keyboard layouts
 
 ```
-bm60rgb/keymaps/didl
-bm60rgb/keymaps/vylion
+kprepublic/bm60rgb/keymaps/didl
+kprepublic/bm60rgb/keymaps/vylion
 
-cospad/keymaps/vylion-c
-cospad/keymaps/vylion-g
+kprepublic/cospad/keymaps/vylion-c
+kprepublic/cospad/keymaps/vylion-g
 
 keyboards/gergo/keymaps/vylion
 
-jj50/keymaps/milyard
-jj50/keymaps/vylion
-jj50/keymaps/vylion-alphabet
-jj50/keymaps/vylion-drone
-jj50/keymaps/vylion-sym
+kprepublic/jj50/keymaps/milyard
+kprepublic/jj50/keymaps/vylion
+kprepublic/jj50/keymaps/vylion-alphabet
+kprepublic/jj50/keymaps/vylion-drone
+kprepublic/jj50/keymaps/vylion-sym
 
 kingly_keys/romac/keymaps/teerre
 ```

@@ -25,10 +25,7 @@ enum layer_names {
 };
 
 enum customKeycodes {
-    VY_INTE = SAFE_RANGE,
-    VY_EXCL,
-    VY_QUOT,
-    VY_DOTS
+    VY_DOTS = SAFE_RANGE
 };
 
 #define ES_MORD KC_GRV  // º
@@ -133,20 +130,20 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ES_BULT,  ES_PIPE,  ES_AT,    ES_HASH,  ES_TILD,   ES_DLR,             ES_EUR,   ES_PERC,  ES_AMPR,  ES_ASTR,  ES_PLUS,  ES_EQL,
     ES_MINS,  ES_MORD,  ES_LCBR,  ES_LBRC,  ES_LPRN,   ES_SLSH,            ES_BSLS,  ES_RPRN,  ES_RBRC,  ES_RCBR,  ES_GRV,   ES_ACUT,
     ES_UNDS,  ES_FORD,  ES_NOT,   ES_LABK,  ES_IQUE,   ES_IEXL,            ES_EXLM,  ES_QUES,  ES_RABK,  VY_DOTS,  ES_CIRC,  ES_DIAE,
-                                            ES_DQUO,   XXXXXXX,  _______,  KC_MENU,  ES_QUOT
+                                            ES_DQUO,   _______,  _______,  KC_MENU,  ES_QUOT
   ),
 
   [_FN] = LAYOUT_reviung41(
     KC_F1,    KC_F2,    KC_F3,    KC_F4,    KC_F5,     KC_F6,              KC_F7,    KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,
-    KC_CAPS,  XXXXXXX,  KC_LALT,  KC_LSFT,  KC_LCTL,   XXXXXXX,            XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_PGUP,  KC_ENT,
+    KC_CAPS,  XXXXXXX,  KC_LALT,  KC_LSFT,  KC_LCTL,   XXXXXXX,            XXXXXXX,  KC_RCTL,  KC_RSFT,  KC_LALT,  KC_PGUP,  KC_ENT,
     KC_LGUI,  XXXXXXX,  XXXXXXX,  SP_COPY,  SP_PSTE,   XXXXXXX,            XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_HOME,  KC_PGDN,  KC_END,
                                             _______,   XXXXXXX,  KC_INS,   XXXXXXX,  XXXXXXX
   ),
 
   [_XTRA] = LAYOUT_reviung41(
     ES_SLSH,   KC_COMM,   KC_7,    KC_8,     KC_9,     TG(_GAME),          RESET,    RGB_VAI,   RGB_SAI, RGB_HUI,  RGB_MOD,  KC_PSCR,
-    ES_MINS,   KC_0,      KC_4,    KC_5,     KC_6,     XXXXXXX,            RGB_TOG,  RGB_VAD,   RGB_SAD, RGB_HUD,  RGB_RMOD, WN_ST_S,
-    ES_UNDS,   KC_DOT,    KC_1,    KC_2,     KC_3,     XXXXXXX,            XXXXXXX,  KC_MUTE,   KC_VOLD, KC_VOLU,  KC_MPRV,  KC_MNXT,
+    ES_MINS,   KC_0,      KC_4,    KC_5,     KC_6,     XXXXXXX,            RGB_TOG,  RGB_VAD,   RGB_SAD, RGB_HUD,  KC_VOLU,  RGB_RMOD,
+    ES_UNDS,   KC_DOT,    KC_1,    KC_2,     KC_3,     XXXXXXX,            XXXXXXX,  KC_MUTE,   WN_ST_S, KC_MPRV,  KC_VOLD,  KC_MNXT,
                                             _______,   KC_MPLY,  XXXXXXX,  KC_MSTP,  _______
   ),
 };

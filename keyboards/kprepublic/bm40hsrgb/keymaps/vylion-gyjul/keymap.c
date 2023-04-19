@@ -170,8 +170,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_GAME] = LAYOUT_planck_mit(
     _______, KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    _______, _______,
-    _______, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    _______, _______,
-    _______, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_P,    _______, _______, _______,
+    KC_LCTL, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    _______, _______,
+    KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_P,    _______, _______, _______,
     _______, _______, _______, _______, _______,     _______,      _______, _______, _______, _______, _______
 ),
 
@@ -196,7 +196,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* XTRA
  */
 [_XTRA] = LAYOUT_planck_mit(
-    ES_SLSH, KC_COMM, KC_7,    KC_8,    KC_9,    GAME,    RESET,   RGB_VAI, RGB_SAI, RGB_HUI, RGB_MOD, KC_PSCR,
+    ES_SLSH, KC_COMM, KC_7,    KC_8,    KC_9,    GAME,    QK_BOOT, RGB_VAI, RGB_SAI, RGB_HUI, RGB_MOD, KC_PSCR,
     VY_000,  KC_0,    KC_4,    KC_5,    KC_6,    SP_COPY, RGB_TOG, RGB_VAD, RGB_SAD, RGB_HUD, RGB_RMOD,WN_ST_S,
     ES_MINS, KC_DOT,  KC_1,    KC_2,    KC_3,    SP_PSTE, XXXXXXX, KC_MUTE, KC_MPRV, KC_VOLD, KC_VOLU, KC_MNXT,
     ES_UNDS, XXXXXXX, XXXXXXX, _______, XXXXXXX,     KC_INS,       XXXXXXX, _______, XXXXXXX, XXXXXXX, XXXXXXX
